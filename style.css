@@ -1,0 +1,22 @@
+.board {
+   display: grid;
+   grid-template-columns: repeat(3,110px);
+ 
+  
+}
+
+
+
+.cell{
+    display: grid;
+    border: 1px solid black;
+    height: 110px;
+    width:110px;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.winner {
+    display: none;
+}
